@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Vault",
+    "version": "0.1",
+    "description": "Stores almost-sensitive data in a portable text",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_title": "Vault",
+        "default_popup": "popup/main.html"
+    }
+}
